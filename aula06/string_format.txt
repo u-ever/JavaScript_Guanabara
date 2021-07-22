@@ -1,0 +1,16 @@
+//O + vai retornar uma Concatenação quando temos uma String e um number
+//caso seja um number e outro number teremos uma soma, o window.prompt só armazena String.
+
+//Convertendo os tipos de dados >>>
+//Number(n) Number.parseInt(n) e Number.parseFloat(n) fazem a conversão para number
+//String(n) e n.toString(n) são usandos para converter para String
+
+//Formatando Strings
+//var s = 'JavaScript'
+//'Eu estou estudando s'    >>>>>>>>>>>> Não faz interpolação
+//'Eu estou estudando ' + s >>>>>>>>>>>> usa concatenação
+//`Eu estou estudando ${s}` >>>>>>>>>>>> usa template string
+
+//s.length    >>>>>>>>>>>> Conta os caracteres da String
+//s.toUpperCase() >>>>>>>>>>>> passa para MAIUSCULO
+//s.LowerCase() >>>>>>>>>>>> passa para minusculo

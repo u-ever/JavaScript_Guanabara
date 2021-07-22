@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <title>Eventos DOM</title>
+
+</head>
+<body>
+    <!--Evento de Click no html
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja...-->
+    <div id="area">
+        Interaja...
+    </div>
+
+    <script>
+        
+        //variavel global -- não é a melhor solução
+        var a = window.document.getElementById('area')
+        
+        //listeners - para colocar os eventos dentro do codigo JS e não do HTML
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        //Funções para o evento do mouse
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+            a.style.background = 'rgb(102, 90, 120)';
+        }
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'rgb(102, 95, 128)';
+        }
+    </script>
+</body>
+</html>

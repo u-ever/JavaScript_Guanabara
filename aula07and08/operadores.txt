@@ -1,0 +1,149 @@
+>>> Operadores
+
+aritméticos
+atribuição
+relacionais
+lógicos
+ternário
+
+=============================
+
+>>> Aritméticos
+
++  soma
+-  subtração
+*  multiplicação
+/  divisão
+%  módulo (resto da divisão)
+** potenciação
+
+>>> Precedência: 
+
+()
+**
+* / %
++ -
+
+=============================
+
+>>> Atribuição Simples
+
+=
+ex: var a = 5
+
+>>> Auto-Atribuição
+
+var n = 3
+n = n + 4
+
+ou
+
+var n = 3
+n += 4
+n -= 4
+n *= 4
+n /= 4
+n **= 4
+n %= 4
+
+>>> Incremento
+
+var x = 5
+x = x + 1
+com incremento fica:
+
+x++
+ou
+
+x = x - 1
+x--
+
+=============================
+
+>>> Relacionais
+
+>  maior
+<  menor
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+
+>>> O SINAL DE IGUALDADE NÃO TESTA O TIPO!
+
+ex:
+
+5 == 5 -> True
+5 == '5' -> True
+
+>>> Identidade
+
+=== identidade
+
+5 === 5 -> True
+5 === '5' -> False
+
+=============================
+
+>>> Lógicos
+
+!  negação (NÃO)
+&& conjunção (E)
+|| disjunção (OU)
+
+Negação (NÃO):
+
+! true  -> false
+! false -> true
+
+Conjução (E)
+
+true  && true  -> true
+true  && false -> false
+false && true  -> false
+false && false -> false
+
+
+Disjunção (OU)
+
+true  || true  -> true
+true  || false -> true
+false || true  -> true
+false || false -> false
+
+>>> Precedência:
+
+!
+&&
+||
+
+=============================
+
+>>> PRECEDÊNCIA GERAL DOS OPERADORES
+
+aritméticos () ** / ... 
+relacionais > < >=  ...
+lógicos ! && ||
+
+=============================
+
+>>> Ternário
+
+?:
+
+teste ? true : false
+
+ex1: média >= 7.0 ? "Aprovado" : "Reprovado"
+
+ex2:
+> var x = 8
+undefined
+
+> var resp = x % 2 == 0 ? 5 : 9
+undefined
+
+> x
+8
+
+> resp
+5

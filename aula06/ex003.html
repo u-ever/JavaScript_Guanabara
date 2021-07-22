@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First App</title>
+    <style>
+        /*Comentário CSS*/
+        body {
+            background-color: darkgray;
+            color: white;
+            font: normal 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <!--Comentário HTML-->
+    <h1>Olá Mundo</h1>
+    <p>
+        Me livrei da maldição!!!
+    </p>
+    <script>
+        //Comentário JavaScript
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert(`A soma dos valores é ${soma}`) 
+        // O + vai retornar uma Concatenação quando temos uma String e um number
+        //caso seja um number e outro number teremos uma soma, o window.prompt só armazena String.
+   
+        //Convertendo os tipos de dados >>>
+        //Number(n) Number.parseInt(n) e Number.parseFloat(n) fazem a conversão para number
+        //String(n) e n.toString(n) são usandos para converter para String
+        
+        //Formatando Strings
+        //var s = 'JavaScript'
+        //'Eu estou estudando s'    >>>>>>>>>>>> Não faz interpolação
+        //'Eu estou estudando ' + s >>>>>>>>>>>> usa concatenação
+        //`Eu estou estudando ${s}` >>>>>>>>>>>> usa template string
+ 
+        //s.length    >>>>>>>>>>>> Conta os caracteres da String
+        //s.toUpperCase() >>>>>>>>>>>> passa para MAIUSCULO
+        //s.LowerCase() >>>>>>>>>>>> passa para minusculo
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condição do cidadão</title>
+
+</head>
+<body>
+    <h1>Verificar sua condição no Pais</h1>
+    <h3>Digite o pais onde nasceu: <input type="text" id="nasci"></h3>
+    <h3>Digite o país onde reside: <input type="text" id='resid'></h3>
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id='condicao'>
+
+    </div>
+    
+    <script>
+        function verificar() {
+            var nascio = window.document.querySelector('input#nasci')
+            var reside = window.document.querySelector('input#resid')
+            if (nascio.value == reside.value) {
+                condicao.innerHTML = `<p>Você não é estrangeiro</p>`
+            } else {
+                condicao.innerHTML = `<p>Você é estrangeiro, pois nasceu no(a) ${nascio.value} e vive no(a)/em ${reside.value}.</p>`
+            }
+        }        
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+>>> DOM - Document Object Model
+
+//Árvore DOM - É a hierarquia dos objetos.
+//window é a Raiz, dentro do window temos vários outros objetos:
+//location, document, history;
+//Dentro do document, temos o html;
+//Dentro de html temos head e body;
+//Dentro de head temos meta, title;
+//Dentro do body temos h1, p, div, etc.
+
+=============================
+
+>>> SELECIONANDO
+
+É possivel selecionar por:
+
+>>> MARCA
+    getElementsByTagName()
+
+>>> ID
+    getElementsByID()
+
+>>> NOME
+    getElementsByName()
+
+>>> CLASSE
+    getElementsByClassName()
+
+>>> SELETOR
+    querySelector()
+    querySelectorAll()

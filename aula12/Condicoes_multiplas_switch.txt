@@ -1,0 +1,19 @@
+>>>> Condição Múltipla
+
+>>> O Javascript possui uma estrutura de condição multipla chamado switch,
+que possui quantas condições forem necessárias e todas possuem um break:
+
+switch (expressão) {
+	case valor_1:
+		faça_isso
+		break
+	case valor_1:
+		faça_isso
+		break
+	case valor_1:
+		faça_isso
+		break
+	default:
+		Se as outras não forem atendidas faça_isso
+		break
+}

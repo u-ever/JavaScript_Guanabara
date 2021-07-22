@@ -1,0 +1,45 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com o DOM</title>
+    <style>
+        body {
+            background-color: rgba(89, 17, 255, 0.87);
+            color: white;
+            font: normal 18px Helvetica;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Iniciando estudos com o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id ="msg">Clique aqui</div>
+
+    <script>
+        var backg = window.document.body
+        
+        var p1 = window.document.getElementsByTagName('p')[1] //para selecionar o primeio paragráfo
+   
+        //window.document.write(`Está escrito assim: <strong>${p1.innerText}</strong>`)
+        //p1.style.color = 'blue' //muda a cor de um elemento pelo JS
+        //backg.style.background = 'black' //atentar para a atribuição do elemento body em uma variável
+
+        //document.write(p1.innerText) //Retorna apenas o texto puro
+        //document.write(p1.innerHTML) //Retorna o elemento HTML
+        //window.alert(p1.innerText) //Alerta com os textos
+        
+        //var d = window.document.getElementById('msg')
+        //d.style.background = "rgba(80, 17, 255, 0.87)"
+        //d.innerText = "Substituindo o texto"
+        
+        var d = window.document.querySelector('div#msg')
+        d.style.color = "pink"
+
+    </script>
+
+</body>
+</html>
