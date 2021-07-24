@@ -1,21 +1,26 @@
 body {
     background-color: rgb(14, 26, 41);
-    font: normal 15pt arial;   
+    color: white;
+    font: normal 20px arial;
 }
 
 header {
-    color: white;
     text-align: center;
 }
 
 section {
     background-color: white;
-    border-radius: 10px;
-    padding: 15px;
+    color: black;
     width: 500px;
+    padding: 20px;
+    border-radius: 15px;
     margin: auto;
-    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.596);
-    text-align: center;
+    box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.356);
+}
+
+#btn {
+    width: 100px;
+    margin-left: 200px;
 }
 
 img {
@@ -27,7 +32,6 @@ img {
 }
 
 footer {
-    color: white;
     text-align: center;
-    font-style: italic;
+    font: italic 15px arial;
 }
