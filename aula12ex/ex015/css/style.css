@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(14, 26, 41);
+    background-color: rgb(146, 199, 153);
     color: white;
     font: normal 20px arial;
 }
@@ -19,6 +19,7 @@ section {
 }
 
 #btn {
+    margin-bottom: 20px;
     width: 100px;
     margin-left: 200px;
 }
