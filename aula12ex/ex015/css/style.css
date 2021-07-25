@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(146, 199, 153);
+    background: rgb(146, 199, 153);
     color: white;
-    font: normal 20px arial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -19,9 +19,14 @@ section {
 }
 
 #btn {
+    color: white;
+    font-weight: bold;
     margin-bottom: 20px;
-    width: 100px;
-    margin-left: 200px;
+    width: 150px;
+    height: 25px;
+    margin-left: 180px;
+    background-color: rgba(66, 85, 81, 0.61);
+    border-radius: 15px;
 }
 
 img {

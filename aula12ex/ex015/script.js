@@ -3,6 +3,7 @@ function verificar() {
     var ano = now.getFullYear()
     var nasc = document.getElementById('txtano')
     var res = document.getElementById('res')
+
     if (nasc.value.length == 0 || nasc.value > ano) {
         window.alert('[ERRO] Verifique os danos e tente novamente!')
     } else {
@@ -13,7 +14,7 @@ function verificar() {
         img.setAttribute('id', 'foto')
 
         var genero = sexo[0].checked ? 'Homem':'Mulher'
-        if (genero == 'Homem') {
+        if (genero == 'Homem') {                
             if (idade >= 0 && idade < 10) {
                 //criança
                 img.setAttribute('src', 'pictures/mchild.jpg')
@@ -27,6 +28,7 @@ function verificar() {
                 // idoso
                 img.setAttribute('src', 'pictures/mold.jpg')
             }
+            document.body.style.backgroundColor = 'rgb(110, 166, 250)'
         }
         if (genero == 'Mulher') {
             if (idade >= 0 && idade < 10) {
@@ -42,6 +44,7 @@ function verificar() {
                 // idoso
                 img.setAttribute('src', 'pictures/fold.jpg')
             }
+            document.body.style.backgroundColor = 'rgb(252, 122, 187)'
         }
 
         res.style.textAlign = 'center'
