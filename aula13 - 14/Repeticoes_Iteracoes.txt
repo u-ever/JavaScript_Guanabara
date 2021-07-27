@@ -1,0 +1,31 @@
+Estuturas de Controle 
+
+>>> Sequências
+
+>>> Condições
+
+>>> Repetições / Laços / Iterações
+
+==========================================================
+
+*** Estrutura de Repetição com teste lógico no Inicio
+
+while (condição TRUE) {
+    tarefa
+}
+
+==========================================================
+
+*** Estrutura de Repetição com teste lógico no Final
+
+do {
+    tarefa
+} while (condição)
+
+==========================================================
+
+*** Estrutura de Repetição com Variável de Controle
+
+for (inicio ; teste ; incremento) {
+    tarefa
+}
