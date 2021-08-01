@@ -1,0 +1,77 @@
+>>> Funções
+
+-----------------------------------------------------------------------------
+
+>> São ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+Exemplo de função que retorna se o número indicado no evento é par ou ímpar:
+
+function parimp(n) {
+	if (n % 2 == 0) {
+		return 'par'
+	} else {
+		return 'impar'
+	}
+}
+
+let res = parimp(11) //Sempre é necessário chamar a função para que ela seja executada.
+outro exemplo de evento seria o console.log(parimp(11) )
+
+-----------------------------------------------------------------------------
+
+>> Com dois parametros:
+
+function soma(n1, n2) {
+	return n1 + n2
+}
+
+console.log(soma(2, 5))
+>>> 7
+
+>> Para evitar um NaN caso um dos numeros não seja informado, devemos atribuir
+valor para os parametros:
+
+function soma(n1=0, n2=0) {
+	return n1 + n2
+}
+
+console.log(soma(2))
+>>> 2
+
+-----------------------------------------------------------------------------
+
+Função para Calculo Fatorial:
+
+function fatorial(n) {
+	let fat = 1
+	for(let c = n; c > 1; c--) {
+		fat *= c
+	}
+	return fat
+}
+
+console.log(fatorial(5))
+>>> 120
+
+Recursividade (quando uma função chama ela mesma)
+
+function fatorial(n) {
+	if (n == 1) {
+		return 1
+	} else {
+		return n * fatorial(n-1)
+	}
+}
+
+console.log(fatorial(5))
+>>> 120
+
+
+/*
+5! = 5 x 4 x 3 x 2 x 1 = 120
+5! = 5 x 4! = 120
+
+n! = n x (n-1)!
+1! = 1
+*/
+-----------------------------------------------------------------------------
