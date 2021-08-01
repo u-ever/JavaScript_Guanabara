@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(44, 127, 138);
+    background-color: rgb(38, 38, 46);
     font: normal 15pt arial;
 }
 
@@ -23,6 +23,10 @@ p{
 
 .lista {
     text-align: center;
+}
+
+#list {
+    width: 150px;
 }
 
 footer {
