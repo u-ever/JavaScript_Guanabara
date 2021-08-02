@@ -46,8 +46,8 @@ function analyze() {
 //conta quantos elementos existem no array vetores
 function count() {
     let cont = 0
-    for (let c = 0; c <= vetores.length; c++) {
-        cont += c
+    while (cont <= vetores.length) {
+        cont += 1
     }
     return cont - 1
 }
