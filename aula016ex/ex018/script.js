@@ -15,9 +15,10 @@ function add() {
         numadd.value = `list`
         list.appendChild(numadd)
         vetores.push(num.value)
-        document.querySelector('input#num').value = ""
+        res.innerHTML = ''
     }
     num.value = ''
+    num.focus()
 }
 
 //Verifica se o número digitado no input num já está no array vetores.
@@ -45,11 +46,13 @@ function analyze() {
 
 //conta quantos elementos existem no array vetores
 function count() {
-    let cont = 0
+ /*   let cont = 0
     while (cont <= vetores.length) {
         cont += 1
     }
-    return cont - 1
+    return cont - 1*/
+    let cont = vetores.length
+    return cont
 }
 
 //Organiza os elementos do array vetores em ordem crescente e retorna o valor da ultima posição 

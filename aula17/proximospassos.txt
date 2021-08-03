@@ -1,0 +1,33 @@
+Nossa rota até aqui:
+
+>> Fundamentos
+>> Variáveis e dados
+>> Operadores
+>> Condições
+>> Repetições
+>> Arrays
+>> Functions
+>> DOM
+
+-------------------------------------------------------------------------------
+
+Próximos Passos:
+
+>> Functions 
+>> Objetos 
+>> Modularização
+>> RegEx (expressões regulares)
+>> JSON
+>> AJAX
+>> NodeJS
+>> JQuery
+
+-------------------------------------------------------------------------------
+
+Objetos
+
+Objetos podem armazenar diversos tipos de dados. O array tem índices númericos, o objeto tem índices que podem ser declarados:
+
+declaração
+
+let obj = {nome:'Jose' ,sexo:'M' ,peso:85.4 ,engordar(p){} ,}
